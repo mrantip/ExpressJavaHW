@@ -2,8 +2,8 @@ package org.example.firstclasscreation;
 
 public class Product {
 
-    String name;
-    double price;
+    private String name;
+    private double price;
 
     Product(String name, double price) {
         this.name = name;
@@ -23,7 +23,7 @@ public class Product {
     }
 
     public void applyDiscount(int discount) {
-        this.price = this.price - ((100 - discount) / 100);
+        this.price = this.price * (1 - discount / 100.0);
     }
 
     public void printInfo() {

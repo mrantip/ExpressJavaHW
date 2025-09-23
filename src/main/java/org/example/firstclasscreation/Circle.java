@@ -2,7 +2,7 @@ package org.example.firstclasscreation;
 
 public class Circle {
 
-    double radius;
+    private double radius;
 
     Circle(double radius) {
         this.radius = radius;

@@ -2,8 +2,8 @@ package org.example.firstclasscreation;
 
 public class Rectangle {
 
-    int width;
-    int height;
+    private int width;
+    private int height;
 
     Rectangle(int width, int height) {
         this.width = width;

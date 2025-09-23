@@ -2,8 +2,8 @@ package org.example.firstclasscreation;
 
 public class BankAccount {
 
-    String owner;
-    double balance;
+    private String owner;
+    private double balance;
 
     BankAccount(String owner, double balance) {
         this.balance = balance;

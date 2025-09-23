@@ -2,8 +2,8 @@ package org.example.firstclasscreation;
 
 public class Book {
 
-    String title;
-    String author;
+    private String title;
+    private String author;
 
     Book(String title, String author) {
         this.title = title;
